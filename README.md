@@ -1,2 +1,2 @@
-# VideoImageClassification
-The CNN model is trained to automatically categorize YouTube video content into predefined categories (sport, pet, and food)
+# YouTube Video Image Classification
+The CNN model is trained to categorize YouTube video content into predefined categories (sport, pet, and food). Selenium Webdriver is used to automatically browse and crawl video thumbnails into CSV files as the dataset from the selected categories. The models are trained using two different libraries, Keras and PyTorch. After training with approximately 20000 thumbnails, both models are able to accurately identify the three categories.
